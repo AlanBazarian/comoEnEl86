@@ -1,27 +1,13 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
 /*Estilos del Header*/
-header a img {display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 400px; height: 150px; padding: 20px;} 
-    header nav a {padding: 15px 20px; border: 5px solid; color: black; border-radius: 5px; margin: 5px;font-size: 30px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-        text-align: center; padding-top: 20px}
-header nav ul {list-style: none;}
-        header nav ul li a {color: darkred; font-weight: bolder;}
-    header nav ul li {display: inline-block; padding-top: 50px; padding-left: 30px; padding-bottom: 30px; padding-right: 30px; ;}
-    body {background-color: #111;}
-    #unite {background-image: url(/fotos/182-photo_5145546931903245169_y.jpg); font-family: 'Comic Neue', cursive;
-        font-family: 'Montserrat', sans-serif; font-size: 70px;text-align: center;text-decoration: double; position: sticky;}
-        @font-face {   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-           src: url(/page/Assets/OpenSans-Italic-VariableFont_wdth\,wght.ttf);}
-           body span {color: white;} 
-           
+header {background-color: darkgray;}
+    body {background-color: #darkgray;}
 main section .titu-princi {background-color: whi;text-align: center; background-color: darkred; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 25px;}         
 .parrafo-titulo {background-color: red; font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 600; text-align: center;}
 body div {margin-bottom: 30px; margin-top: 30px;text-align: center;}
+.barrasNuevas {background-color: red;}
 
 .textoDescri {color: white; background-color: red; text-align: center;}
 /*UnoxUno*/
@@ -46,9 +32,65 @@ body div {margin-bottom: 30px; margin-top: 30px;text-align: center;}
 .caja-contacto {color: aliceblue; font-size: 20px;Comic Neue', cursive;
     font-family: 'Montserrat', sans-serif; font-size: 20px;text-align}
     /*Jugadores*/
-.main-jugadores section .cartaJ {width: 300px; height: 600px; margin: 20px; border: 1px solid red; 
-    border-radius: 20px 0px 20px 0px; overflow: hidden; }
-.main-jugadores section .cartaJ img {width: 100%;}
-.main-jugadores section .cartaJ div p {background-color: red; font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif; font-size: 22px; font-weight: 600; text-align: center;  }
+.container {
+display: grid;
+grid-template-columns: 40% 55%;
+grid-template-rows: 100%;
+gap: 5%;}
+.hijo {}
+.hijo img{width: 70%;}
+.hijo {text-align: center;
+    font-weight: bold;
+font-family: font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 24px;
+}
 
+.formulario-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cc0000;
+  }
+
+@media (max-width: 768px){
+    header .logotitu{
+        border-radius: 50%;
+    }
+}

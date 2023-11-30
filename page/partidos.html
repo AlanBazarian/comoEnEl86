@@ -4,39 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Como en el 86 - Partidos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--Link de css-->
    <link rel="stylesheet" href="/page/Css/stylee.css">  
 </head>
-<body>
-    <header>
-        <h1><a href="/page/index.html" id="logoTitulo"><img src="/fotos/Logo.jpg" alt="Como en el 86"></a></h1>
-   
+<header>
 <!--Navegador-->
-    <nav>
-            <ul class="enlaceRojo">
-        <li><a href="/page/historia.html" >Historia</a></li>
-        <li><a href="/page/Jugadores.html" >Jugadores</a></li>
-        <li><a href="/page/partidos.html" >Partidos</a></li>
-        <li><a href="/page/unoxuno.html" >Uno por Uno</a></li>
-        <li><a href="contacto.html">Contáctanos</a></li>
-    </ul>
-    </nav>
-        </header>
-        </head>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/page/index.html"><img class="img-thumbnail logotitu" src="/fotos/Logo.jpg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/page/historia.html">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/page/Jugadores.html">Jugadores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/page/partidos.html">Partidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/page/unoxuno.html">Uno x Uno</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/page/contacto.html">Contactanos</a>
+          </li>
+      </div>
+    </div>
+</header>
 <body>
+  <h1 class="titu-princi">Ultimos Partidos</h1>
     <main>
-        <section id="tabla">
-            <h2 class="titu-princi">Tabla</h2>
-            <img src="/fotos/Tablas.jpeg" alt="tablaActual">
-        </section>
-        <section id="ultimoPartido">
-            <h2 class="titu-princi"> Ultima Fecha</h2>
-            <img src="/fotos/UltimoPartidos.jpeg" alt="">
-
-        </section>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../fotos/Partido1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/fotos/Partido2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/fotos/Partido3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/fotos/Tablas.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/fotos/Tabla1.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Proxima</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+          </div>
     </main>
 </body>
 <footer>
     <p>&copy; 2023 Como en el 86 - Equipo de Fútbol</p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
