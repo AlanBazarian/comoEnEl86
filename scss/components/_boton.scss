@@ -1,0 +1,26 @@
+.formulario-container {
+  width: 50%;
+  margin: 50px auto;
+  background-color: nth($list: colors, $n: 2 );
+  padding: 20px;
+  border-radius: 10px;
+}
+
+  
+  .button {
+    background-color: nth($list: colors, $n: 4 );
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, darkred, black);
+    transform: scale(1, 1.2);
+    transition:  2s;
+  
+  
+  &:hover {
+    background-color: #cc0000;
+    transform: translate(10px);
+  }
+  }
