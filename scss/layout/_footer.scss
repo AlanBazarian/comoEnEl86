@@ -1,6 +1,6 @@
 footer {
     background-color: #333;
-    color: nth($list: colors, $n:2 );
+    color: nth($list: $colores, $n: 2 );
     padding: 20px;
     text-align: center;
   }

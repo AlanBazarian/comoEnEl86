@@ -103,7 +103,7 @@ body .titulo-princi {
 .formulario-container {
   width: 50%;
   margin: 50px auto;
-  background-color: #f2f2f2;
+  background-color: darkgray;
   padding: 20px;
   border-radius: 10px;
 }
@@ -154,7 +154,9 @@ body .titulo-princi {
 }
 footer {
   background-color: #333;
-  color: #fff;
+  color: #ffffff;
   padding: 20px;
   text-align: center;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

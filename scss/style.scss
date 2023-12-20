@@ -1,11 +1,11 @@
 @import 'components/reset';
 @import "layout/header";
 @import 'layout/jugadores';
-@import "layout/body";
+@import "var/colors";
 @import "layout/main";
 @import 'layout/historia';
 @import 'components/boton';
-
+@import 'var/mixin';
 @import "components/redes";
 @import "var/media";
 @import "layout/footer";
