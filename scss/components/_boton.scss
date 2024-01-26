@@ -1,9 +1,28 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .formulario-container {
   width: 50%;
   margin: 50px auto;
   background-color: nth($list: $colores, $n: 3);
   padding: 20px;
   border-radius: 10px;
+  align-items: center;
 }
 
   
@@ -22,6 +41,5 @@
   &:hover {
     background-color: #cc0000;
     transform: translate(10px);
-    
   }
-  }
+}
